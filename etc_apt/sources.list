@@ -5,18 +5,6 @@ deb http://debian.linuxmint.com/latest testing main contrib non-free
 deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
 deb http://debian.linuxmint.com/latest/multimedia testing main non-free
 
-# The following repositories are from antiX Linux
-# antiX
-deb http://www.daveserver.info/antiX/debs testing full main
-#deb-src http://192.168.2.2/debian/ source/
-
-# yad
-deb http://debs.slavino.sk testing main non-free
-
-# xmms
-deb http://www.pvv.ntnu.no/~knuta/xmms/squeeze ./
-#deb-src http://www.pvv.ntnu.no/~knuta/xmms/squeeze ./
-
 # opera
 deb http://deb.opera.com/opera/ squeeze non-free
 
