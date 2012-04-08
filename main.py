@@ -40,5 +40,7 @@ dest='/etc/apt/sources.list'
 shutil.copyfile(src, dest)
 
 # Update the local repository
-os.system('apt-get update')
+os.system ('apt-get update')
+
+os.system ('apt-get purge -qq pulseaudio')
 
