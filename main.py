@@ -40,6 +40,7 @@ dest='/etc/apt/sources.list'
 shutil.copyfile(src, dest)
 
 # Update the local repository
+os.system ('rm /var/lib/apt/lists/*')
 os.system ('apt-get update')
 
 os.system ('echo PURGING pulseaudio to expedite the process of transforming LMDE into Swift Linux')
