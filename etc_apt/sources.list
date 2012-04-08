@@ -5,6 +5,13 @@ deb http://debian.linuxmint.com/latest testing main contrib non-free
 deb http://debian.linuxmint.com/latest/security testing/updates main contrib non-free
 deb http://debian.linuxmint.com/latest/multimedia testing main non-free
 
+# antiX
+deb http://www.daveserver.info/antiX/debs testing full main
+#deb-src http://192.168.2.2/debian/ source/
+
+# yad
+deb http://debs.slavino.sk testing main non-free
+
 # opera
 deb http://deb.opera.com/opera/ squeeze non-free
 
