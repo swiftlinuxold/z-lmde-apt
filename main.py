@@ -23,9 +23,9 @@ else:
 
 # Everything up to this point is common to all Python scripts called by shared-*.sh
 # =================================================================================
-
-
 # This is the script for updating the Apt-Get/Synaptic settings and repositories
+os.system ('echo ===============================')
+os.system ('echo BEGIN UPDATING APT-GET/SYNAPTIC')
 
 import shutil
 
@@ -46,3 +46,5 @@ os.system ('echo PURGING pulseaudio to expedite the process of transforming LMDE
 os.system ('echo pulseaudio will be reinstalled later in this process')
 os.system ('apt-get purge -qq pulseaudio')
 
+os.system ('echo FINISHED UPDATING APT-GET/SYNAPTIC')
+os.system ('echo ==================================')
