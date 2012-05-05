@@ -42,9 +42,9 @@ shutil.copyfile(src, dest)
 # Update the local repository
 os.system ('apt-get update')
 
-os.system ('echo PURGING pulseaudio to expedite the process of transforming LMDE into Swift Linux')
-os.system ('echo pulseaudio will be reinstalled later in this process')
-os.system ('apt-get purge -qq pulseaudio')
+#os.system ('echo PURGING pulseaudio to expedite the process of transforming LMDE into Swift Linux')
+#os.system ('echo pulseaudio will be reinstalled later in this process')
+#os.system ('apt-get purge -qq pulseaudio')
 
 os.system ('echo FINISHED UPDATING APT-GET/SYNAPTIC')
 os.system ('echo ==================================')
