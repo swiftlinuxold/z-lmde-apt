@@ -35,9 +35,9 @@ dest='/etc/apt/apt.conf.d/99synaptic'
 shutil.copyfile(src, dest)
 
 # Update sources.list to reflect Update Pack 3 (http://blog.linuxmint.com/?m=201109)
-src=dir_develop+'/apt/etc_apt/sources.list'
-dest='/etc/apt/sources.list'
-shutil.copyfile(src, dest)
+#src=dir_develop+'/apt/etc_apt/sources.list'
+#dest='/etc/apt/sources.list'
+#shutil.copyfile(src, dest)
 
 # Update the local repository
 os.system ('apt-get update')
